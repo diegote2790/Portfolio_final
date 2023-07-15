@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block header %}
+<h1>Diego Peralta</h1>
+<span class="subheading">Desarrollador Fullstack</span>
+{% endblock %}
+
+
+{% block content %}
+<h2>Soy Diego Peralta, el desarrollador indicado para ti</h2>
+  <p>Bienvenido/a a mi sitio web. Soy Diego, un desarrollador apasionado y experimentado que está aquí para ayudarte a hacer realidad tus proyectos digitales. Si estás buscando un desarrollador dedicado, confiable y altamente capacitado, has llegado al lugar correcto.</p>
+
+  <p>Con años de experiencia en el desarrollo de software y un profundo conocimiento de diversas tecnologías y lenguajes de programación, puedo ofrecerte soluciones personalizadas y de calidad. Ya sea que necesites una aplicación móvil, un sitio web dinámico o una plataforma de comercio electrónico, estoy preparado para enfrentar cualquier desafío y convertir tus ideas en realidad.</p>
+
+  <p>Mi enfoque principal es entender tus necesidades y metas específicas. Creo en la importancia de una comunicación clara y constante, trabajando estrechamente contigo para garantizar que cada detalle se tenga en cuenta en el proceso de desarrollo. Tu satisfacción es mi prioridad número uno, y me esfuerzo por superar tus expectativas en cada proyecto.</p>
+
+  <p>Además de mi experiencia técnica, tengo un enfoque creativo y una pasión por el diseño limpio y funcional. Entiendo que la estética y la experiencia del usuario son fundamentales para el éxito de cualquier proyecto digital, por lo que me aseguro de crear interfaces atractivas, intuitivas y orientadas a tus usuarios.</p>
+
+  <p>No solo soy un desarrollador, sino también un solucionador de problemas. Me enorgullece encontrar soluciones eficientes y efectivas para los desafíos tecnológicos que puedas enfrentar. Mi objetivo es simplificar tus procesos y mejorar tu eficiencia, aportando valor real a tu negocio.</p>
+
+  <p>Si estás listo/a para llevar tu proyecto al siguiente nivel, no dudes en <a href="{% url 'contact' %}">contactarme</a>. Estoy emocionado/a de trabajar contigo y de ser el desarrollador que necesitas para alcanzar tus metas. Explora mi <a href="{% url 'portfolio' %}">portafolio</a> y descubre cómo puedo ayudarte a transformar tus ideas en una realidad digital impresionante.</p>
+
+  <p>Gracias por visitar mi sitio web. ¡Espero con ansias colaborar contigo!</p>
+{% endblock %}
